@@ -15,5 +15,7 @@
   with_items:
     - docker
     - docker-engine
+- name: Install pip
+  apt: pkg=pip
 - name: Install docker-py
   pip: name=docker-py
