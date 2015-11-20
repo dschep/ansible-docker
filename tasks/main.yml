@@ -16,4 +16,4 @@
     - docker
     - docker-engine
 - name: Install docker-py
-  pip: pkg=docker-py
+  pip: name=docker-py
